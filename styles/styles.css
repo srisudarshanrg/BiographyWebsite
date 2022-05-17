@@ -1,0 +1,53 @@
+/* Section 1: Title*/
+.section-1 {
+  background-color: #19c0d6;
+  padding-bottom: 1.1%;
+  text-align: center;
+}
+
+.navbar {
+  color: darkgray;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-link {
+  margin: 0 15px 0 15px;
+}
+
+h1,
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 2;
+}
+
+/* Section 2: Introducting Myself */
+.section-2 {
+  background-color: #a8eef7;
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin-top: 30px;
+  padding: 15px 0 15px 0;
+  text-align: center;
+}
+
+h3 {
+  color: #0a40f2;
+}
+
+.pfp {
+  border-radius: 100%;
+}
+
+/* Section 3: Carousel - My Skills */
+.section-3 {
+  background-color: #19c0d6;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.skill-name {
+  font-family: 'Ubuntu', sans-serif;
+}
