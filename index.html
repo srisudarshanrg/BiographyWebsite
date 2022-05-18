@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -29,7 +29,7 @@
 </head>
 
 <body>
-    <section class="section-1">
+    <section id="section-1">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-info navbar">
             <div class="container-fluid">
@@ -51,6 +51,16 @@
                         <li class="nav-item">
                             <a class="nav-link">My Works</a>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Page Layout
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#section-2">Welcome!</a></li>
+                              <li><a class="dropdown-item" href="#section-3">My Skills</a></li>
+                              <li><a class="dropdown-item" href="#section-4">I am a Bookworm!</a></li>
+                              <li><a class="dropdown-item" href="#section-5">Contact Me</a></li>
+                            </ul>
                     </ul>
                 </div>
             </div>
@@ -67,7 +77,7 @@
         <img src="images/favicon.png" alt="Pirate">
     </section>
 
-    <section class="section-2">
+    <section id="section-2">
         <img class="pfp" src="images/me.jpg" alt="R Sri Sudarshan - Profile Picture">
         <h2>Welcome To My Website!</h2>
         <p><i>I was born on 21 November 2009. I am currently 12 years old.<br>I have studied only in 3 schools in my
@@ -81,7 +91,7 @@
     </section>
 </body>
 
-<section class="section-3">
+<section id="section-3">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000"
         data-bs-pause="hover">
         <div class="carousel-inner container">
@@ -139,8 +149,73 @@
     </div>
 </section>
 
-<section class="section-4">
-    <h2></h2>
+<section id="section-4">
+    <h2>I am a Bookworm!</h2>
+    <h4>Trust me, I read a lot of books...</h4><br>
+    <!-- Bootstrap Card -->
+    <div class="row">
+        <div class="col-lg-4 col-sm-12 col-xs-12">
+          <div class="card">
+            <div class="card-header bg-primary">
+                <b>Fantasy</b>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Mostly books from Rick Riordan</h5><br>
+                <p class="card-text">Percy Jackson</p>
+                <p class="card-text">Heroes of Olympus</p>
+                <p class="card-text">Magnus Chase</p>
+                <p class="card-text">The Kane Chronicles</p>
+              <a href="#" class="btn btn-outline-primary link-bookies">Rick Riordan Books</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-xs-12">
+          <div class="card">
+            <div class="card-header bg-primary">
+                <b>Knowledge</b>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Coding and Science</h5><br>
+              <p class="card-text">The Universe</p>
+              <p class="card-text">Dinosaurs (Uncountable dino books I have read)</p>
+              <p class="card-text">Earth</p>
+              <p class="card-text">Code</p>
+              <p class="card-text">Mathematics</p>
+              <p class="card-text">The Richest Man in Babylon</p>
+              <a href="#" class="btn btn-primary link-bookies">Dinosaur Lovers, Click Here!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-xs-12">
+          <div class="card">
+            <div class="card-header bg-primary">
+                <b>Cartoon</b>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">I don't read these anymore!</h5><br>
+              <p class="card-text">Mickey Mouse!</p>
+              <p class="card-text">Bruno the Bear</p>
+              <p class="card-text">Barney the Dinosaur</p>
+              <p class="card-text">Chhota Bheem</p>
+              <a href="#" class="btn btn-outline-primary link-bookies">Mickey Mania!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+<section id="section-5">
+    <h2>Contact Me!</h2>
+    <h4>Get in touch!</h4>
+    <p>Let's get in touch if you know me! Just click <a href="">here</a> to contact me!</p>
+    <a class="contact-me-btn" href="" role="button">Contact Me!</a>
+</section>
+
+<section id="section-6">
+    <a href="">Email</a>
+    <a href="">Website</a>
+    <a href="">My Works</a><br><br>
+    <p>©R Sri Sudarshan @srisudarshanrg@gmail.com</p>
 </section>
 
 </html>
