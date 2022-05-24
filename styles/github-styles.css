@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+/* Section 1: Navbar */
+
+#section-1 a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link {
+    margin: 0 15px;
+}
+
+/* Section 2: Links to GitHub Repositories */
+#section-2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 15px 0;
+}
+
+h2 {
+    font-size:  1.5rem;
+}
+
+#section-2 a {
+    font-weight: bold;
+    margin: 0 15px;
+}

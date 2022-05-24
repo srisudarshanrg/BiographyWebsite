@@ -1,0 +1,35 @@
+body {
+    background-color: #abe69a;  
+}
+
+/* Section 1: Navbar */
+#section-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.nav-link  {
+    margin: 0 15px 0 15px;
+}
+
+/* Section 2: Contact Me Mediums */
+#section-2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    padding: 50px 0;
+    text-align: center;
+}
+    
+#section-2 a {
+    font-weight: bold;
+    margin: 8px 5px 0 5px;
+}
+
+/* Section 3: Contact Me Page */
+#section-3 {
+    background-color: darkgreen;
+    color: #8de876;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 50px 0;
+    text-align: center;
+}
