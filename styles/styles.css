@@ -152,6 +152,8 @@ h4 {
   margin: 0 15px 0 15px;
 }
 
-/* @media (max-width: 1380) {
-
-} */
+@media (max-width: 517px) {
+  .pirate-img {
+    width: 60%;
+  }
+}
