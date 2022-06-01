@@ -1,0 +1,31 @@
+/* Section 1 */
+#section-1 {
+    background-color: crimson;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+#navbar {
+    line-height: 3;
+}
+
+.nav-link {
+    margin: 0 30px;
+}
+
+h1 {
+    font-weight: bold;
+    line-height: 3;
+}
+
+#code-btn, #music-btn, #article-btn {
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+#code-btn:hover, #music-btn:hover, #article-btn:hover {
+    background-color: red;
+    border-color: red;
+}
