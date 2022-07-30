@@ -1,0 +1,18 @@
+/* Navbar */
+nav {
+    background-color: #CD9B1D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    margin-left: 5px;
+}
+
+#nav-link-one {
+    margin-left: 1255px;
+}
+
+.nav-link {
+    margin: 0 25px;
+}
